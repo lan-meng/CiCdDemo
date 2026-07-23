@@ -11,7 +11,7 @@ namespace CiCdDemo.Controllers
         {
             return Ok(new
             {
-                Version = "1.0.1",
+                Version = "1.0.2",
                 BuildTime = DateTime.Now
             });
         }
